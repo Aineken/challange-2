@@ -1,0 +1,80 @@
+body{
+    background-color: hsl(226, 43%, 10%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.mainDiv{
+    width: 1000px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 30px;
+
+
+}
+
+
+.mainBlock{
+    background-color: hsl(235, 46%, 20%);
+    position: relative;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.card{
+    position: relative;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.inCard{
+    background-color: hsl(235, 46%, 20%);
+    position: absolute;
+    height: 85%;
+    width: 100%;
+    bottom: 0;
+    border-radius: 19px;
+    border: 1px;
+}
+.inMain{
+    background-color: hsl(246, 80%, 60%);
+    position: absolute;
+    height: 65%;
+    width: 100%;
+    top: 0;
+    border-radius: 18px;
+}
+
+.yellow{
+    background-color: hsl(43, 84%, 65%);
+}
+.orange{
+    background-color: hsl(15, 100%, 70%);
+}
+.blue{
+    background-color: hsl(195, 74%, 62%);
+}
+.pink{
+    background-color: hsl(348, 100%, 68%);
+}
+.green{
+    background-color: hsl(145, 58%, 55%) ;
+}
+.purple{
+    background-color: hsl(264, 64%, 52%);
+}
+.yellow{
+    background-color: hsl(43, 84%, 65%);
+}
